@@ -5,26 +5,30 @@
 //}
 //Вывести в консоль результат работы функции с возрастами 17, 18, 61
 
+    //let age_1 = 10;
+    //let age_2 = 18;
+    //let age_3 = 60;
+
 const checkAge = function(age_1, age_2, age_3) 
 {
     if (age_1 < age_2) 
     {
-        console.log("You don’t have access cause your age is "  + age_1 + "." + " It’s less then ");
+        return "You don’t have access cause your age is "  + age_1 + "." + " It’s less then ";
     }
 
     else if (age_1 >= age_2 && age_1 < age_3) 
     {
-        console.log("Welcome !");
+        return "Welcome !";
     }
 
     else if (age_1 > age_3) 
     {
-        console.log("Keep calm and look Culture channel");
+        return "Keep calm and look Culture channel";
     }
 
     else 
     {
-        console.log("Technical work");
+        return "Technical work";
     }
 }
 
